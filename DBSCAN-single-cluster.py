@@ -114,4 +114,4 @@ from sklearn.cluster import DBSCAN
 dbs = DBSCAN(eps=3, min_samples=3, metric='euclidean', metric_params=None, algorithm='auto', leaf_size=30, p=None,
              n_jobs=None)
 dbs.fit(XX)
-print(dbs.labels_) # -1 denotes noise
+print(dbs.labels_) # 
